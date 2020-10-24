@@ -123,7 +123,7 @@ plt.show()
 
 #e
 print("Iv(0)<Sv,tau(D)<1 while tau0(D)>1")
-Taue = [N*a for a in sigmanu(3.240440699935191e-21,2,F,50)]
+Taue = [N*a for a in sigmanu(6.240440699935191e-21,2,F,50)]
 I0e=0.5
 Sve=1
 Iv(Sve,I0e,Taue)
@@ -135,7 +135,7 @@ plt.show()
 
 #f
 print("Iv(0)>Sv,tau(D)<1 while tau0(D)<1")
-Tauf = [N*a for a in sigmanu(3.240440699935191e-21,2,F,50)]
+Tauf = [N*a for a in sigmanu(6.240440699935191e-21,2,F,50)]
 I0f=1
 Svf=0.5
 Iv(Svf,I0f,Tauf)
